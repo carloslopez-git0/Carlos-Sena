@@ -1,0 +1,33 @@
+/* ============================================
+   CONTACTO
+   ============================================ */
+
+.contacto-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.contacto-info {
+  flex: 1 1 280px;
+}
+
+.contacto-info h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.contacto-info>p {
+  color: var(--texto-suave);
+  margin-bottom: 24px;
+}
+
+.contacto-dato {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--borde);
+}
+
+.contacto-contenido .formulario {
+  flex: 1 1 320px;
+}
